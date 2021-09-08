@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+
+  .todo-counter {
+    padding: 10px 5px;
+    font-size: 22px;
+    background-color: rgb(158, 158, 158);
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+    width: 270px;
+    justify-content: center;
+    border-radius: 15px;
+  }
+}

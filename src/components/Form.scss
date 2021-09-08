@@ -1,0 +1,34 @@
+.todo-form {
+  padding: 10px;
+
+  &__input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid rgba(67, 18, 172, 1);
+    outline: none;
+    background: transparent;
+  }
+
+  &__btn {
+    padding: 16px 7px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      135deg,
+      #4312ac 0%,
+      #fd2d2d 100%
+    );
+    color: #ffffff;
+    text-transform: capitalize;
+
+    &:hover {
+      background: linear-gradient(
+        135deg,
+        (#3a1094 0%),
+        (#c81c1c 100%)
+      );
+    }
+  }
+}

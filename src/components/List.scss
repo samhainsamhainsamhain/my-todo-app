@@ -1,0 +1,38 @@
+.item-todo {
+  width: 250px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  background: linear-gradient(
+    135deg,
+    rgba(67, 18, 172, 1) 0%,
+    rgba(253, 45, 45, 1) 100%
+  );
+  cursor: pointer;
+
+  .item-text {
+    display: inline-block;
+    width: 100%;
+  }
+  .item-delete {
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+    float: right;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.strike {
+  text-decoration: line-through;
+}
